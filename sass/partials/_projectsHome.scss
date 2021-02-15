@@ -1,0 +1,49 @@
+.portfolio-section{
+  max-width: 1440px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+
+.portfolio-wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.portfolio-img-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 75px 0 100px;
+}
+
+.portfolio-img img{
+  width: 370px;
+  height: 255px;
+}
+
+//****** Portfolio Title ****
+
+.portfolio-title h3{
+  float: right;
+  font-size: 45px;
+}
+
+
+// ***** Projects Botton ******
+
+.portfolio-btn a{
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #0074FB;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 0 100px;
+  float: right;
+}
