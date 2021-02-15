@@ -1,6 +1,148 @@
 body {
-  background-color: black;
+  font-family: 'Poppins';
+  width: 1440px;
   color: white; }
 
-body a {
+.principal-wrapper {
+  color: white;
+  width: 1440px; }
+
+.header {
+  margin: 0 auto;
+  width: 1170px;
+  height: 720px;
+  position: relative;
   color: white; }
+
+.principal-wrapper {
+  background-image: url(/img/Desktop/Desktop/backgroud-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.logo img {
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  top: 35px; }
+
+.nav-bar {
+  float: right; }
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 35px; }
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 35px; }
+
+.nav-menu li a:visited {
+  color: white; }
+
+.header-icons {
+  position: absolute;
+  margin-top: 240px; }
+
+.icons-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0; }
+
+.icons-list li {
+  list-style: none; }
+
+.icons-list li img {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 25px; }
+
+.header-title {
+  position: absolute;
+  left: 100px;
+  top: 260px; }
+
+.header-title h1 {
+  font-size: 72px;
+  margin: 0 auto; }
+
+.header-title p {
+  font-size: 35px;
+  margin: 0 auto; }
+
+.banner-contact {
+  width: 1440px;
+  height: 225px;
+  background-image: url(/img/Desktop/Desktop/home-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.banner-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center;
+  width: 1170px;
+  margin: 0 auto; }
+
+.banner-info p {
+  width: 500px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 300px 100px 70px; }
+
+.banner-info a {
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #0074FB;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 100px 0 80px; }
+
+.wrapper-about {
+  background-color: black;
+  width: 1440px; }
+
+.aboutme-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding-bottom: 195px;
+  width: 1170px; }
+
+.aboutme-text {
+  width: 500px;
+  margin-right: 200px; }
+
+.aboutme-text h3 {
+  margin: 110px 0 0;
+  font-size: 45px; }
+
+.aboutme-text p {
+  margin: 30px 0 0; }
+
+.aboutme-text a {
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #0074FB;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute; }
+
+.aboutme-info a:visited {
+  color: white; }
+
+.aboutme-img img {
+  width: 370px;
+  margin-top: 125px; }

@@ -1,0 +1,91 @@
+//Header Div
+
+.header{
+  margin: 0 auto;
+  width: 1170px;
+  height: 720px;
+  position: relative;
+  color: white;
+}
+
+.principal-wrapper{
+  background-image: url(/img/Desktop/Desktop/backgroud-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//Desktop logo
+
+.logo img{
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  top: 35px;
+}
+
+//Barra de navegacion
+
+.nav-bar{
+  float: right;
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+
+.nav-menu li a{
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 35px;
+}
+
+.nav-menu li a:visited{
+  color: white;
+}
+
+// ****** Header icon *****
+
+.header-icons{
+  position: absolute;
+  margin-top: 240px;
+}
+
+.icons-list{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.icons-list li{
+  list-style: none;
+}
+
+.icons-list li img{
+  height: 24px;
+  width: 24px;
+  margin-bottom: 25px;
+}
+
+//**** Header Title *****
+
+.header-title{
+  position: absolute;
+  left: 100px;
+  top: 260px;
+}
+
+.header-title h1{
+  font-size: 72px;
+  margin: 0 auto;
+
+}
+
+.header-title p{
+  font-size: 35px;
+  margin: 0 auto;
+}
+

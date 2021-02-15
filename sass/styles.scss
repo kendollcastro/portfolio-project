@@ -1,9 +1,4 @@
-body{
-  background-color: black;
-  color: white;
-}
-
-body a{
-  color: white;
-}
-
+@import'partials/global';
+@import'partials/header';
+@import'partials/banner';
+@import'partials/aboutHome';
