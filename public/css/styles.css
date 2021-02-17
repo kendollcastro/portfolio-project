@@ -171,6 +171,7 @@ body {
   height: 255px; }
 
 .portfolio-title h3 {
+  margin-top: 200px;
   float: right;
   font-size: 45px; }
 
@@ -228,8 +229,17 @@ body {
   width: 24px;
   height: 24px; }
 
+.stay-form {
+  display: flex;
+  flex-direction: column; }
+
+.form-input {
+  display: flex;
+  justify-content: center; }
+
 .form-input input {
   border: 3px solid #0074FB;
+  color: white;
   background: none;
   border-radius: 5px 0 0 5px;
   height: 24px;
@@ -244,10 +254,6 @@ body {
   text-transform: uppercase;
   padding: 8px 16px;
   border: none; }
-
-.stay-form {
-  display: flex;
-  flex-direction: column; }
 
 .social-media {
   display: flex;
@@ -269,3 +275,103 @@ body {
 
 .list-icons a {
   margin-left: 35px; }
+
+.form-copy-right {
+  display: flex;
+  justify-content: center; }
+
+.form-copy-right p {
+  order: 3;
+  color: #BDBDBD;
+  margin: 20px; }
+
+.header {
+  margin: 0 auto;
+  width: 1170px;
+  height: 720px;
+  position: relative;
+  color: white; }
+
+.aboutme-wrapper {
+  background-image: url(/img/Desktop/Desktop/img-bg-aboutme.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.logo img {
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  top: 35px; }
+
+.nav-bar {
+  float: right; }
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 35px; }
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 35px; }
+
+.nav-menu li a:visited {
+  color: white; }
+
+.header-title {
+  position: absolute;
+  left: 100px;
+  top: 260px; }
+
+.header-title h1 {
+  font-size: 72px;
+  margin: 0 auto; }
+
+.header-title p {
+  font-size: 35px;
+  margin: 0 auto; }
+
+.wrapper-about {
+  background-color: black;
+  width: 1440px; }
+
+.aboutme-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1170px; }
+
+.aboutme-text {
+  width: 610px;
+  margin-right: 200px; }
+
+.aboutme-text h3 {
+  margin: 110px 0 0;
+  font-size: 45px; }
+
+.aboutme-text p {
+  margin: 30px 0 0; }
+
+.aboutme-info a:visited {
+  color: white; }
+
+.aboutme-section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.aboutme-section-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 125px; }
+
+.section-two-img {
+  margin: 0 200px 0 100px; }
+
+.section-two-text {
+  width: 610px; }

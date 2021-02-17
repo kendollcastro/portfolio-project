@@ -1,0 +1,133 @@
+//Header Div
+
+.header{
+  margin: 0 auto;
+  width: 1170px;
+  height: 720px;
+  position: relative;
+  color: white;
+}
+
+.aboutme-wrapper{
+  background-image: url(/img/Desktop/Desktop/img-bg-aboutme.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//Desktop logo
+
+.logo img{
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  top: 35px;
+}
+
+//Barra de navegacion
+
+.nav-bar{
+  float: right;
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+
+.nav-menu li a{
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 35px;
+}
+
+.nav-menu li a:visited{
+  color: white;
+}
+
+
+//**** Header Title *****
+
+.header-title{
+  position: absolute;
+  left: 100px;
+  top: 260px;
+}
+
+.header-title h1{
+  font-size: 72px;
+  margin: 0 auto;
+
+}
+
+.header-title p{
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+
+
+// **** Wrapper About Me ****
+
+.wrapper-about{
+  background-color: black;
+  width: 1440px;
+}
+
+//***** Wrapper About Me *****
+
+.aboutme-section-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  //padding-bottom: 195px;
+  width: 1170px;
+}
+
+.aboutme-text{
+  width: 610px;
+  margin-right: 200px;
+}
+
+.aboutme-text h3{
+  margin: 110px 0 0;
+  font-size: 45px;
+}
+
+.aboutme-text p{
+  margin: 30px 0 0;
+}
+
+
+.aboutme-info a:visited{
+  color: white;
+}
+
+// About me / Section Two
+
+.aboutme-section-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.aboutme-section-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 125px;
+}
+
+.section-two-img{
+  margin: 0 200px 0 100px;
+}
+
+.section-two-text{
+  width: 610px;
+}
+
+

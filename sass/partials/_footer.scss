@@ -55,13 +55,28 @@
   height: 24px;
 }
 
+// **** Stay in touch Style *****
+
+.stay-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input{
+ display: flex;
+ justify-content: center;
+}
+
 .form-input input{
   border: 3px solid #0074FB;
+  color: white;
   background: none;
   border-radius: 5px 0 0 5px;
   height: 24px;
   width: 150px;
 }
+
+//**** Form button ****
 
 .form-input button{
   text-decoration: none;
@@ -72,11 +87,6 @@
   text-transform: uppercase;
   padding: 8px 16px;
   border: none;
-}
-
-.stay-form{
-  display: flex;
-  flex-direction: column;
 }
 
 //****** Footer Social Media *****
@@ -105,4 +115,19 @@
 
 .list-icons a{
   margin-left: 35px;
+}
+
+
+
+// ***** Footer Copy Right ******
+
+.form-copy-right{
+  display: flex;
+  justify-content: center;
+}
+
+.form-copy-right p{
+  order: 3;
+  color: #BDBDBD;
+  margin: 20px;
 }
