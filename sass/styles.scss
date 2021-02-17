@@ -1,4 +1,4 @@
-@import'partials/global';
+@import'config/global';
 @import'partials/header';
 @import'partials/banner';
 @import'partials/aboutHome';
@@ -11,3 +11,6 @@
 
 //Portfolio Page
 @import'portfolio/portfolio';
+
+//Contact Page
+@import'contact/contact';
