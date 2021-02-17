@@ -9,7 +9,7 @@ body {
   max-width: 100%; }
 
 .principal-wrapper {
-  background-image: url(/img/Desktop/Desktop/backgroud-header.jpg);
+  background-image: url(/img/portfolio-img-bg.png);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -79,7 +79,7 @@ body {
   max-width: 100%;
   width: 1440px;
   height: 225px;
-  background-image: url(/img/Desktop/Desktop/home-banner.png);
+  background-image: url(/img/home-banner.png);
   background-repeat: no-repeat;
   background-size: cover; }
 
