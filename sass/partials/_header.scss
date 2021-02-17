@@ -1,17 +1,18 @@
 //Header Div
 
-.header{
-  margin: 0 auto;
-  width: 1170px;
-  height: 720px;
-  position: relative;
-  color: white;
-}
-
 .principal-wrapper{
   background-image: url(/img/Desktop/Desktop/backgroud-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header{
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
+  height: 720px;
+  position: relative;
+  color: white;
 }
 
 //Desktop logo

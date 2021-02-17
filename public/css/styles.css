@@ -1,23 +1,28 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins';
   width: 1440px;
+  max-width: 100%;
   color: white; }
 
 .principal-wrapper {
   color: white;
-  width: 1440px; }
-
-.header {
-  margin: 0 auto;
-  width: 1170px;
-  height: 720px;
-  position: relative;
-  color: white; }
+  width: 1440px;
+  max-width: 100%; }
 
 .principal-wrapper {
   background-image: url(/img/Desktop/Desktop/backgroud-header.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
+
+.header {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
+  height: 720px;
+  position: relative;
+  color: white; }
 
 .logo img {
   position: absolute;
@@ -74,6 +79,7 @@ body {
   margin: 0 auto; }
 
 .banner-contact {
+  max-width: 100%;
   width: 1440px;
   height: 225px;
   background-image: url(/img/Desktop/Desktop/home-banner.png);
@@ -86,6 +92,7 @@ body {
   justify-content: end;
   text-align: center;
   width: 1170px;
+  max-width: 100%;
   margin: 0 auto; }
 
 .banner-info p {
@@ -108,7 +115,8 @@ body {
 
 .wrapper-about {
   background-color: black;
-  width: 1440px; }
+  width: 1440px;
+  max-width: 100%; }
 
 .aboutme-info {
   display: flex;
@@ -116,7 +124,8 @@ body {
   justify-content: flex-start;
   margin: 0 auto;
   padding-bottom: 195px;
-  width: 1170px; }
+  width: 1170px;
+  max-width: 100%; }
 
 .aboutme-text {
   width: 500px;
@@ -189,10 +198,12 @@ body {
 
 .footer-wrapper {
   width: 1440px;
+  max-width: 100%;
   background-color: black; }
 
 .footer-info {
   width: 1170px;
+  max-width: 100%;
   height: 215px;
   margin: 0 auto;
   display: flex;
@@ -379,11 +390,13 @@ body {
 .header {
   margin: 0 auto;
   width: 1170px;
+  max-width: 100%;
   height: 720px;
   position: relative;
   color: white; }
 
 .portfolio-bg {
+  max-width: 100%;
   background-image: url(/img/Desktop/Desktop/portfolio-img-bg.png);
   background-repeat: no-repeat;
   background-size: cover; }
@@ -558,7 +571,7 @@ body {
   font-size: 35px; }
 
 .contact-picture img {
-  margin: 45px 0 0 100px; }
+  margin: 85px 0 0 100px; }
 
 .contact-form {
   max-width: 1440px;

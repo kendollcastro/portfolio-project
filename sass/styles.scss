@@ -1,4 +1,8 @@
+
+//Global page
 @import'config/global';
+
+//Home Page
 @import'partials/header';
 @import'partials/banner';
 @import'partials/aboutHome';
@@ -7,7 +11,7 @@
 
 
 //About Me Page
-@import'aboutMe/about';
+@import'aboutme/about';
 
 //Portfolio Page
 @import'portfolio/portfolio';
