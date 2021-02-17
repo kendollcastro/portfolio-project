@@ -375,3 +375,121 @@ body {
 
 .section-two-text {
   width: 610px; }
+
+.header {
+  margin: 0 auto;
+  width: 1170px;
+  height: 720px;
+  position: relative;
+  color: white; }
+
+.portfolio-bg {
+  background-image: url(/img/Desktop/Desktop/portfolio-img-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.portfolio-bg {
+  width: 1440px; }
+
+.logo img {
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  top: 35px; }
+
+.nav-bar {
+  float: right; }
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 35px; }
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 35px; }
+
+.nav-menu li a:visited {
+  color: white; }
+
+.header-title {
+  position: absolute;
+  left: 100px;
+  top: 260px; }
+
+.header-title h1 {
+  font-size: 72px;
+  margin: 0 auto; }
+
+.header-title p {
+  font-size: 35px;
+  margin: 0 auto; }
+
+.portfolio-section {
+  max-width: 1440px;
+  background-color: black;
+  margin: 0 auto; }
+
+.portfolio-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end; }
+
+.portfolio-title h4 {
+  margin-top: 50px;
+  float: left;
+  font-size: 35px; }
+
+.first-img-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 0 15px; }
+
+.second-img-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0 100px; }
+
+.portfolio-img img {
+  width: 370px;
+  height: 255px; }
+
+.banner-contact {
+  width: 1440px;
+  height: 225px;
+  background-image: url(/img/Desktop/Desktop/home-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.banner-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center;
+  width: 1170px;
+  margin: 0 auto; }
+
+.banner-info p {
+  width: 500px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 300px 100px 70px; }
+
+.banner-info a {
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #0074FB;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 100px 0 80px; }
