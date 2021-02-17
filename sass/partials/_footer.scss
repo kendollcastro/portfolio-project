@@ -1,0 +1,108 @@
+.footer-wrapper{
+  width: 1440px;
+  background-color: black;
+
+}
+
+.footer-info{
+  width: 1170px;
+  height: 215px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+//***** Footer Phone Style ****
+
+.footer-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-phone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-phone img{
+  margin-right: 25px;
+  width: 24px;
+  height: 24px;
+}
+
+
+//***** Footer Mail Style *****
+
+.form-title{
+  display: flex;
+  justify-content: center;
+  margin: 16px 0  25px;
+}
+
+.footer-mail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-mail img{
+  margin-right: 25px;
+  width: 24px;
+  height: 24px;
+}
+
+.form-input input{
+  border: 3px solid #0074FB;
+  background: none;
+  border-radius: 5px 0 0 5px;
+  height: 24px;
+  width: 150px;
+}
+
+.form-input button{
+  text-decoration: none;
+  background-color: #0074FB;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border: none;
+}
+
+.stay-form{
+  display: flex;
+  flex-direction: column;
+}
+
+//****** Footer Social Media *****
+
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media p{
+  margin: 16px 0 25px;
+}
+
+.list-icons{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.list-icons img{
+  height: 24px;
+}
+
+.list-icons a{
+  margin-left: 35px;
+}
