@@ -11,7 +11,7 @@ body {
   max-width: 100%; }
 
 .principal-wrapper {
-  background-image: url(/img/home-bg-img.png);
+  background-image: url(../../img/home-bg-img.png);
   background-repeat: no-repeat;
   background-size: cover; }
 
