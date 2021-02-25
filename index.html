@@ -27,10 +27,10 @@
 
         <!--Nav menu-->
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About me</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" class="cool-link">Home</a></li>
+          <li><a href="aboutme.html" class="cool-link">About me</a></li>
+          <li><a href="portfolio.html" class="cool-link">Portfolio</a></li>
+          <li><a href="contact.html" class="cool-link">Contact</a></li>
         </ul>
       </div>
 
@@ -104,6 +104,70 @@
     </div>
   </div>
 
+  <!--Feedback wrapper-->
+  <div class="feedback-wrapper">
+
+    <div class="feedback-title">
+      <h3>Feedback</h3>
+    </div>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <div>
+        <a class="prev" onclick="plusSlides(-1)"><img src="img/icon/feedback-arrow-left.png" alt=""></a>
+      </div>
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+          <div class="text-comment">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ullam fugit neque omnis provident sit, asperiores soluta ex nemo officiis aut impedit molestias dolorem cum fuga dignissimos sint quaerat minima.</p>
+              <div class="feedback-name">
+                  <img src="img/icon/line-feedback.png" alt="">
+                  <P>Lorem ipsum</P>
+              </div>
+          </div>
+        <img src="img/img-feedback-1.png" >
+      </div>
+
+      <div class="mySlides fade">
+          <div class="text-comment">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ullam fugit neque omnis provident sit, asperiores soluta ex nemo officiis aut impedit molestias dolorem cum fuga dignissimos sint quaerat minima.</p>
+              <div class="feedback-name">
+                <img src="img/icon/line-feedback.png" alt="">
+                <P>Lorem ipsum</P>
+            </div>
+          </div>
+        <img src="img/img-feedback-2.png" >
+      </div>
+
+      <div class="mySlides fade">
+          <div class="text-comment">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ullam fugit neque omnis provident sit, asperiores soluta ex nemo officiis aut impedit molestias dolorem cum fuga dignissimos sint quaerat minima.</p>
+              <div class="feedback-name">
+                <img src="img/icon/line-feedback.png" alt="">
+                <P>Lorem ipsum</P>
+            </div>
+          </div>
+        <img src="img/img-feedback-3.png">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <div>
+        <a class="next" onclick="plusSlides(1)"><img src="img/icon/feedback-arrow-right.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- The dots/circles -->
+  <div  class="circles-wrapper" tyle="text-align:center">
+    <div class="circles-content">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+
   <!--Footer Wrapper 1440px-->
   <div class="footer-wrapper">
 
@@ -160,5 +224,6 @@
       <p>Copyright 2021 © Kendoll Castro Matarrita</p>
     </div>
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>

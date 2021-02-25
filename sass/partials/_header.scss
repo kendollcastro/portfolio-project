@@ -1,5 +1,6 @@
 //Header Div
 
+
 .principal-wrapper{
   background-image: url(../../img/home-bg-img.png);
   background-repeat: no-repeat;
@@ -12,7 +13,7 @@
   width: 1170px;
   height: 720px;
   position: relative;
-  color: white;
+  color: $text-color;
 }
 
 //Desktop logo
@@ -20,7 +21,7 @@
 .logo img{
   position: absolute;
   width: 70px;
-  height: 35px;
+  height: 40px;
   top: 35px;
 }
 
@@ -42,11 +43,27 @@
   text-decoration: none;
   font-size: 18px;
   margin-left: 35px;
+  display: inline-block;
 }
 
 .nav-menu li a:visited{
   color: white;
 }
+
+.cool-link::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: $text-color;
+  transition: width .3s
+}
+
+.cool-link:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
 
 // ****** Header icon *****
 
@@ -70,6 +87,10 @@
   width: 24px;
   margin-bottom: 25px;
 }
+
+
+
+
 
 //**** Header Title *****
 

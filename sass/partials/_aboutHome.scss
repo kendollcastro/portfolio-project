@@ -4,6 +4,7 @@
   background-color: black;
   width: 1440px;
   max-width: 100%;
+  color: $text-color;
 }
 
 //***** Wrapper About Me *****
@@ -37,7 +38,7 @@
 .aboutme-text a{
   font-size: 16px;
   text-decoration: none;
-  background-color: #0074FB;
+  background-color: $button-color;
   padding: 10px 16px;
   color: white;
   border-radius: 5px;
@@ -49,8 +50,10 @@
 
 
 .aboutme-info a:visited{
-  color: white;
+  color: $text-color;
 }
+
+
 
 // **** About me - img ****
 
