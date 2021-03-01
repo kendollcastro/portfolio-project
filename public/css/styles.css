@@ -76,6 +76,13 @@ body {
   width: 24px;
   margin-bottom: 25px; }
 
+.icons-list li img:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5); }
+
 .header-title {
   position: absolute;
   left: 100px;
@@ -125,8 +132,11 @@ body {
   position: absolute;
   margin: 100px 0 80px; }
 
+.banner-info a:hover {
+  background-color: #0060CF; }
+
 .wrapper-about {
-  background-color: black;
+  background-color: #000000;
   width: 1440px;
   max-width: 100%;
   color: #ffff; }
@@ -149,19 +159,22 @@ body {
   font-size: 45px; }
 
 .aboutme-text p {
-  margin: 30px 0 0; }
+  margin: 50px 0 0; }
 
 .aboutme-text a {
   font-size: 16px;
   text-decoration: none;
   background-color: #0074FB;
   padding: 10px 16px;
-  color: white;
+  color: #ffff;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
   position: absolute;
-  margin-top: 40px; }
+  margin-top: 60px; }
+
+.aboutme-text a:hover {
+  background-color: #0060CF; }
 
 .aboutme-info a:visited {
   color: #ffff; }
@@ -172,7 +185,7 @@ body {
 
 .portfolio-section {
   max-width: 1440px;
-  background-color: black;
+  background-color: #000000;
   margin: 0 auto; }
 
 .portfolio-wrapper {
@@ -194,21 +207,24 @@ body {
 
 .portfolio-title h3 {
   color: #ffff;
-  margin-top: 200px;
+  margin-top: 150px;
   float: right;
-  font-size: 45px; }
+  font-size: 40px; }
 
 .portfolio-btn a {
   font-size: 16px;
   text-decoration: none;
   background-color: #0074FB;
   padding: 10px 16px;
-  color: white;
+  color: #ffff;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
   margin: 20px 0 100px;
   float: right; }
+
+.portfolio-btn a:hover {
+  background-color: #0060CF; }
 
 .feedback-wrapper {
   background-color: #000000; }
@@ -264,28 +280,25 @@ body {
   height: 3px;
   width: 50px; }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none; }
+.left-row img {
+  width: 24px; }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px; }
+.left-row img:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5); }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8); }
+.right-row img {
+  width: 24px; }
+
+.right-row:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5); }
 
 /* Caption text */
 .text {
@@ -343,7 +356,7 @@ body {
 .footer-wrapper {
   width: 1440px;
   max-width: 100%;
-  background-color: black;
+  background-color: #000000;
   color: #ffff; }
 
 .footer-info {
@@ -398,8 +411,8 @@ body {
   color: white;
   background: none;
   border-radius: 5px 0 0 5px;
-  height: 24px;
-  width: 150px; }
+  height: 31px;
+  width: 180px; }
 
 .form-input button {
   text-decoration: none;
@@ -410,6 +423,9 @@ body {
   text-transform: uppercase;
   padding: 8px 16px;
   border: none; }
+
+.form-input button:hover {
+  background-color: #0060CF; }
 
 .social-media {
   display: flex;
@@ -428,6 +444,13 @@ body {
 
 .list-icons img {
   height: 24px; }
+
+.list-icons img:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5); }
 
 .list-icons a {
   margin-left: 35px; }
@@ -538,7 +561,7 @@ body {
   max-width: 100%;
   height: 720px;
   position: relative;
-  color: white; }
+  color: #ffff; }
 
 .portfolio-bg {
   max-width: 100%;
@@ -571,7 +594,7 @@ body {
   margin-left: 35px; }
 
 .nav-menu li a:visited {
-  color: white; }
+  color: #ffff; }
 
 .header-title {
   position: absolute;
@@ -588,7 +611,7 @@ body {
 
 .portfolio-section {
   max-width: 1440px;
-  background-color: black;
+  background-color: #000000;
   margin: 0 auto; }
 
 .portfolio-wrapper {
@@ -598,26 +621,84 @@ body {
   flex-direction: column;
   justify-content: end; }
 
-.portfolio-title h4 {
-  margin-top: 50px;
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  color: white; }
+
+.project-wrapper {
+  max-width: 1440px; }
+
+.second-wrapper {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+/* Center website */
+h1 {
+  font-size: 40px;
+  word-break: break-all; }
+
+.row {
+  margin: 30px -16px 100px; }
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px; }
+
+/* Create three equal columns that floats next to each other */
+.column {
   float: left;
-  font-size: 35px; }
+  width: 33.33%;
+  display: none;
+  /* Hide all elements by default */ }
 
-.first-img-set {
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Content */
+.content {
+  background-color: #1D1D1D;
+  border-radius: 0.625rem;
+  padding: 10px; }
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block; }
+
+/* Style the buttons */
+.tabs-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 50px 0 15px; }
+  align-items: baseline; }
 
-.second-img-set {
+#myBtnContainer {
+  width: 320px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 15px 0 100px; }
+  justify-content: space-between; }
 
-.portfolio-img img {
-  width: 370px;
-  height: 255px; }
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #313131;
+  border-radius: 0.313rem;
+  color: white;
+  cursor: pointer; }
+
+.btn:hover {
+  background-color: #1D1D1D; }
+
+.btn.active {
+  background-color: #1D1D1D;
+  color: white; }
 
 .banner-contact {
   width: 1440px;
@@ -716,7 +797,7 @@ body {
   font-size: 35px; }
 
 .contact-picture img {
-  margin: 85px 0 0 100px; }
+  margin: 100px 0 0 100px; }
 
 .contact-form {
   max-width: 1440px;
@@ -725,7 +806,7 @@ body {
 
 .contact-wrapper {
   max-width: 1170px;
-  padding-top: 100px;
+  padding-top: 50px;
   margin: 0 auto;
   padding-bottom: 100px;
   display: flex;
@@ -738,8 +819,8 @@ body {
 
 .form-content form input {
   width: 250px;
-  height: 25px;
-  margin: 5px 0 15px;
+  height: 30px;
+  margin: 5px 0 20px;
   border-radius: 5px; }
 
 .form-content form textarea {

@@ -1,7 +1,7 @@
 .footer-wrapper{
   width: 1440px;
   max-width: 100%;
-  background-color: black;
+  background-color: $primary-color;
   color: $text-color;
 
 }
@@ -71,25 +71,30 @@
 }
 
 .form-input input{
-  border: 3px solid #0074FB;
+  border: 3px solid $button-color;
   color: white;
   background: none;
   border-radius: 5px 0 0 5px;
-  height: 24px;
-  width: 150px;
+  height: 31px;
+  width: 180px;
 }
+
 
 //**** Form button ****
 
 .form-input button{
   text-decoration: none;
-  background-color: #0074FB;
+  background-color: $button-color;
   color: white;
   border-radius: 0 5px 5px 0;
   font-weight: bolder;
   text-transform: uppercase;
   padding: 8px 16px;
   border: none;
+}
+
+.form-input button:hover{
+  background-color: $button-hover-color;
 }
 
 //****** Footer Social Media *****
@@ -114,6 +119,12 @@
 
 .list-icons img{
   height: 24px;
+}
+
+.list-icons img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 
 .list-icons a{

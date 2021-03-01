@@ -1,6 +1,6 @@
 .portfolio-section{
   max-width: 1440px;
-  background-color: black;
+  background-color: $primary-color;
   margin: 0 auto;
 }
 
@@ -29,9 +29,9 @@
 
 .portfolio-title h3{
   color: $text-color;
-  margin-top: 200px;
+  margin-top: 150px;
   float: right;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 
@@ -40,12 +40,17 @@
 .portfolio-btn a{
   font-size: 16px;
   text-decoration: none;
-  background-color: #0074FB;
+  background-color: $button-color;
   padding: 10px 16px;
-  color: white;
+  color: $text-color;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
   margin: 20px 0 100px;
   float: right;
 }
+
+.portfolio-btn a:hover{
+  background-color: $button-hover-color;
+}
+

@@ -31,7 +31,7 @@
 .banner-info a{
   font-size: 16px;
   text-decoration: none;
-  background-color: #0074FB;
+  background-color: $button-color;
   padding: 10px 16px;
   color: white;
   border-radius: 5px;
@@ -39,4 +39,8 @@
   text-transform: uppercase;
   position: absolute;
   margin: 100px 0 80px;
+}
+
+.banner-info a:hover{
+  background-color: $button-hover-color;
 }

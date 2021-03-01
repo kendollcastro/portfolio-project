@@ -1,7 +1,7 @@
 // **** Wrapper About Me ****
 
 .wrapper-about{
-  background-color: black;
+  background-color: $primary-color;
   width: 1440px;
   max-width: 100%;
   color: $text-color;
@@ -30,7 +30,7 @@
 }
 
 .aboutme-text p{
-  margin: 30px 0 0;
+  margin: 50px 0 0;
 }
 
 //**** About me / button ****
@@ -40,19 +40,21 @@
   text-decoration: none;
   background-color: $button-color;
   padding: 10px 16px;
-  color: white;
+  color: $text-color;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
   position: absolute;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
+.aboutme-text a:hover{
+  background-color: $button-hover-color;
+}
 
 .aboutme-info a:visited{
   color: $text-color;
 }
-
 
 
 // **** About me - img ****

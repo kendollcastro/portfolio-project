@@ -41,25 +41,95 @@
     </div>
   </div>
 
-  <!--Portfolio Section Home-->
-  <div class="portfolio-section">
+  <!--Project wrapper 1440px-->
+  <div class="project-wrapper">
 
-    <div class="portfolio-wrapper">
+    <!--Second Wrapper 1170px-->
+    <div class="second-wrapper">
 
-      <div class="portfolio-title">
-        <h4>Projects</h4>
+      <!-- MAIN (Center website) -->
+      <div class="main">
+        <div class="tabs-content">
+          <div>
+            <h2>Projects</h2>
+          </div>
+
+          <div id="myBtnContainer">
+            <div><button class="btn active" onclick="filterSelection('all')"> Show all</button></div>
+            <div><button class="btn" onclick="filterSelection('nature')">Personal</button></div>
+            <div><button class="btn" onclick="filterSelection('cars')">Team</button></div>
+            <div><button class="btn" onclick="filterSelection('people')">CETAV</button></div>
+          </div>
       </div>
 
-      <div class="first-img-set">
-        <div class="portfolio-img"><img src="./img/home-portfolio-img.png" alt=""></div>
-        <div class="portfolio-img"><img src="./img/home-portfolio-img.png" alt=""></div>
-        <div class="portfolio-img"><img src="./img/home-portfolio-img.png" alt=""></div>
-      </div>
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column nature">
+          <div class="content">
+            <img src="img/home-portfolio-img.png" alt="Mountains" style="width:100%">
+            <h4>Mountains</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+          <img src="img/home-portfolio-img.png" alt="Lights" style="width:100%">
+            <h4>Lights</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+          <img src="img/home-portfolio-img.png" alt="Nature" style="width:100%">
+            <h4>Forest</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
 
-      <div class="second-img-set">
-        <div class="portfolio-img"><img src="./img/home-portfolio-img.png" alt=""></div>
-        <div class="portfolio-img"><img src="./img/home-portfolio-img.png" alt=""></div>
-        <div class="portfolio-img"><img src="./img/home-portfolio-img.png" alt=""></div>
+        <div class="column cars">
+          <div class="content">
+            <img src="img/home-portfolio-img.png" alt="Car" style="width:100%">
+            <h4>Retro</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+          <img src="img/home-portfolio-img.png" alt="Car" style="width:100%">
+            <h4>Fast</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+          <img src="img/home-portfolio-img.png" alt="Car" style="width:100%">
+            <h4>Classic</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+
+        <div class="column people">
+          <div class="content">
+            <img src="img/home-portfolio-img.png" alt="Car" style="width:100%">
+            <h4>Girl</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+          <img src="img/home-portfolio-img.png" alt="Car" style="width:100%">
+            <h4>Man</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+          <img src="img/home-portfolio-img.png" alt="Car" style="width:100%">
+            <h4>Woman</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+      <!-- END GRID -->
       </div>
     </div>
   </div>
@@ -130,5 +200,7 @@
       <p>Copyright 2021 © Kendoll Castro Matarrita</p>
     </div>
   </div>
+
+  <script src="./js/portfolio.js"></script>
 </body>
 </html>
