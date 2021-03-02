@@ -1,12 +1,12 @@
 //Header Div
 
-.header{
+/*.header{
   margin: 0 auto;
   width: 1170px;
   height: 720px;
   position: relative;
-  color: white;
-}
+  color: $text-color;
+}*/
 
 .contact-bg{
   background-image: url(/img/contact-img-bg.png);
@@ -24,7 +24,7 @@
   position: absolute;
   width: 70px;
   height: 35px;
-  top: 35px;
+  top: 2.188rem;
 }
 
 //Barra de navegacion
@@ -38,17 +38,17 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 35px;
+  margin-top: 2.188rem;
 }
 
 .nav-menu li a{
   text-decoration: none;
-  font-size: 18px;
-  margin-left: 35px;
+  font-size: 1.125rem;
+  margin-left: 2.188rem;
 }
 
 .nav-menu li a:visited{
-  color: white;
+  color: $text-color;
 }
 
 
@@ -56,18 +56,18 @@
 
 .header-title{
   position: absolute;
-  left: 100px;
-  top: 260px;
+  left: 6.25rem;
+  top: 16.25rem;
 }
 
 .header-title h1{
-  font-size: 72px;
+  font-size: 4.375rem;
   margin: 0 auto;
 
 }
 
 .header-title p{
-  font-size: 35px;
+  font-size: 2.5rem;
   margin: 0 auto;
 }
 
@@ -76,20 +76,20 @@
 .contact-title{
   display: flex;
   justify-content: start;
-  margin-bottom: 50px 0;
+  margin-bottom: 3.125rem 0;
 }
 
 .contact-title h4{
   display: flex;
   flex-direction: row;
   margin: 0 0 0 0;
-  font-size: 35px;
+  font-size: 2.5rem;
 }
 
 //**** Contact me img****
 
 .contact-picture img{
-  margin: 100px 0 0 100px;
+  margin: 6.25rem 0 0 6.25rem;
 }
 
 
@@ -97,16 +97,16 @@
 
 .contact-form{
   max-width: 1440px;
-  background-color: black;
+  background-color: $primary-color;
   margin: 0 auto;
 }
 
 
 .contact-wrapper{
   max-width: 1170px;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -115,39 +115,43 @@
 
 
 .form-content{
-  margin: 125px 0 0 200px;
+  margin: 7.813rem 0 0 12.5rem;
 }
 
 .form-content form input{
   width: 250px;
   height: 30px;
-  margin: 5px 0 20px;
-  border-radius: 5px;
+  margin: 0.313rem 0 1.25rem;
+  border-radius: 0.313rem;
 }
 
 .form-content form textarea{
   resize: none;
   width: 252px;
-  margin: 5px 0;
-  border-radius: 5px;
+  margin: 0.313rem 0;
+  border-radius: 0.313rem;
 }
 
 .form-content button{
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   background-color: $button-color;
   border: none;
-  padding: 10px 107px;
-  color: white;
+  padding: 0.625rem 6.688rem;
+  color: $text-color;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+.form-content button:hover{
+  background-color: $button-hover-color;
+}
+
 .form-content p{
   width: 250px;
-  font-size: 16px;
-  color: grey;
+  font-size: 1rem;
+  color: $disabled-text;
 }
 
 

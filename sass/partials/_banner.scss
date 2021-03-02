@@ -1,44 +1,43 @@
 // ****** Banner Contact Me *****
 
 .banner-contact{
-  max-width: 100%;
-  width: 1440px;
-  height: 225px;
+  max-width: 1440px;
+  width: 100%;
   background-image: url(/img/home-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  color: $text-color;
 }
 
 .banner-info{
+  color: $text-color;
   display: flex;
   flex-direction: row;
   justify-content: end;
   text-align: center;
-  width: 1170px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
 .banner-info p{
-  width: 500px;
+  width: 100%;
   font-weight: bold;
   text-align: center;
-  margin: 100px 300px 100px 70px;
+  margin: 6.25rem 18.75rem 6.25rem 4.375rem;
 
 }
 
 .banner-info a{
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   background-color: $button-color;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   color: white;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   font-weight: bold;
   text-transform: uppercase;
   position: absolute;
-  margin: 100px 0 80px;
+  margin: 6.25rem 0 5rem;
 }
 
 .banner-info a:hover{

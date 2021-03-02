@@ -32,7 +32,7 @@
 }
 
 .footer-phone img{
-  margin-right: 25px;
+  margin-right: 1.563rem;
   width: 24px;
   height: 24px;
 }
@@ -43,7 +43,7 @@
 .form-title{
   display: flex;
   justify-content: center;
-  margin: 16px 0  25px;
+  margin: 1rem 0  1.563rem;
 }
 
 .footer-mail{
@@ -53,7 +53,7 @@
 }
 
 .footer-mail img{
-  margin-right: 25px;
+  margin-right: 1.563rem;
   width: 24px;
   height: 24px;
 }
@@ -71,10 +71,10 @@
 }
 
 .form-input input{
-  border: 3px solid $button-color;
+  border: 0.188rem solid $button-color;
   color: white;
   background: none;
-  border-radius: 5px 0 0 5px;
+  border-radius: 0.313rem 0 0 0.313rem;
   height: 31px;
   width: 180px;
 }
@@ -86,10 +86,10 @@
   text-decoration: none;
   background-color: $button-color;
   color: white;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 0.313rem 0.313rem 0;
   font-weight: bolder;
   text-transform: uppercase;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   border: none;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .social-media p{
-  margin: 16px 0 25px;
+  margin: 1rem 0 1.563rem;
 }
 
 .list-icons{
@@ -128,9 +128,8 @@
 }
 
 .list-icons a{
-  margin-left: 35px;
+  margin-left: 2.188rem;
 }
-
 
 
 // ***** Footer Copy Right ******
@@ -143,5 +142,5 @@
 .form-copy-right p{
   order: 3;
   color: #BDBDBD;
-  margin: 20px;
+  margin: 1.25rem;
 }

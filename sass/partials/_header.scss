@@ -1,60 +1,103 @@
 //Header Div
 
-
-.principal-wrapper{
-  background-image: url(../../img/home-bg-img.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.first-header-wrapper{
+  max-width: 100%;
+  width: 1440px;
+  //background-image: url(../../img/home-header-img.png);
+  //background-size: contain;
+  //background-repeat: no-repeat;
+  //border: 1px solid yellow;
 }
 
 .header{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
   margin: 0 auto;
   max-width: 100%;
   width: 1170px;
-  height: 720px;
-  position: relative;
   color: $text-color;
 }
 
-//Desktop logo
 
-.logo img{
-  position: absolute;
-  width: 70px;
-  height: 40px;
-  top: 35px;
+.header-img{
+  background-image: url(../../img/home-header-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 580px;
+  margin-top: 60px;
+  border: 1px solid red;
+}
+
+
+@media(max-width: 767px){
+  .header-img{
+    display: none;
+  }
+
+  .first-header-wrapper{
+    max-width: 1440px;
+    width: 100%;
+    background-image: url(../../img/home-header-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid orange;
+  }
+
+  .header{
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
 //Barra de navegacion
 
-.nav-bar{
-  float: right;
+//Desktop logo
+
+.logo img{
+  top: 1.875rem;
 }
+
+//Nav bar
+
+.nav-bar{
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 .nav-menu{
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 35px;
+  margin-top: 1.875rem;
+}
+
+@media(max-width: 767px){
+  .nav-bar ul{
+    display: none;
+  }
 }
 
 .nav-menu li a{
   text-decoration: none;
-  font-size: 18px;
-  margin-left: 35px;
+  font-size: 1.125rem;
   display: inline-block;
 }
 
 .nav-menu li a:visited{
-  color: white;
+  color: $text-color;
 }
 
 .cool-link::after{
   content: '';
   display: block;
   width: 0;
-  height: 2px;
+  height: 0.125rem;
   background-color: $text-color;
   transition: width .3s
 }
@@ -67,14 +110,20 @@
 
 // ****** Header icon *****
 
-.header-icons{
-  position: absolute;
-  margin-top: 240px;
+//Header content
+
+.header-content{
+  height: 700px;
+  display: flex;
+  align-items: center;
 }
+
 
 .icons-list{
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
+  height: 180px;
   padding: 0;
 }
 
@@ -83,9 +132,8 @@
 }
 
 .icons-list li img{
-  height: 24px;
-  width: 24px;
-  margin-bottom: 25px;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .icons-list li img:hover{
@@ -95,25 +143,20 @@
 }
 
 
-
-
-
 //**** Header Title *****
-
-.header-title{
-  position: absolute;
-  left: 100px;
-  top: 260px;
+.header-name{
+  border: 3px solid red;
+  margin-left: 5rem;
 }
 
-.header-title h1{
-  font-size: 72px;
-  margin: 0 auto;
-
-}
-
-.header-title p{
-  font-size: 35px;
+.header-name h1{
+  font-size: 4.375rem;
   margin: 0 auto;
 }
+
+.header-name p{
+  font-size: 1.875rem;
+  margin: 0 auto;
+}
+
 

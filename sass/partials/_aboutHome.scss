@@ -14,38 +14,38 @@
   flex-direction: row;
   justify-content: flex-start;
   margin: 0 auto;
-  padding-bottom: 195px;
+  padding-bottom: 12.188rem;
   width: 1170px;
   max-width: 100%;
 }
 
 .aboutme-text{
-  width: 500px;
+  width: 31.25rem;
   margin-right: 200px;
 }
 
 .aboutme-text h3{
   margin: 110px 0 0;
-  font-size: 45px;
+  font-size: 12.5rem;
 }
 
 .aboutme-text p{
-  margin: 50px 0 0;
+  margin: 3.125rem 0 0;
 }
 
 //**** About me / button ****
 
 .aboutme-text a{
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   background-color: $button-color;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   color: $text-color;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   font-weight: bold;
   text-transform: uppercase;
   position: absolute;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .aboutme-text a:hover{
@@ -60,8 +60,8 @@
 // **** About me - img ****
 
 .aboutme-img img{
-  width: 370px;
-  margin-top: 125px;
+  width: 100%;
+  margin-top: 7.813rem;
 }
 
 

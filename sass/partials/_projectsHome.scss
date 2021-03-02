@@ -17,36 +17,36 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 75px 0 100px;
+  margin: 4.688rem 0 6.25rem;
 }
 
 .portfolio-img img{
-  width: 370px;
-  height: 255px;
+  width: 23.125rem;
+  height: 15.938rem;
 }
 
 //****** Portfolio Title ****
 
 .portfolio-title h3{
   color: $text-color;
-  margin-top: 150px;
+  margin-top: 9.375rem;
   float: right;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 
 // ***** Projects Botton ******
 
 .portfolio-btn a{
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   background-color: $button-color;
-  padding: 10px 16px;
+  padding: 0.625 1rem;
   color: $text-color;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 20px 0 100px;
+  margin: 1.25rem 0 6.25rem;
   float: right;
 }
 
