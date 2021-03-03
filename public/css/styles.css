@@ -179,13 +179,17 @@ body {
   width: 1170px;
   max-width: 100%;
   height: 200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 1px solid pink; }
+
+.banner-text {
+  margin-right: 6rem; }
 
 .banner-info p {
   width: 100%;
   font-weight: bold;
   text-align: center;
-  margin: 6.25rem 18.75rem 6.25rem 4.375rem; }
+  border: 1px solid pink; }
 
 .banner-button {
   border: 1px solid pink; }
@@ -204,54 +208,70 @@ body {
 .banner-info a:hover {
   background-color: #0060CF; }
 
-.portfolio-section {
-  max-width: 1440px;
-  background-color: #000000;
-  margin: 0 auto; }
-
-.portfolio-wrapper {
-  max-width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: end; }
-
-.portfolio-img-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 4.688rem 0 6.25rem; }
-
-.portfolio-img img {
-  width: 23.125rem;
-  height: 15.938rem; }
-
 .portfolio-title h3 {
   color: #ffff;
   margin-top: 9.375rem;
   float: right;
   font-size: 2.5rem; }
 
+.portfolio-section {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #000000;
+  margin: 0 auto;
+  border: 1px solid rebeccapurple;
+  padding: 0 50px; }
+
+.portfolio-wrapper {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 1px solid yellowgreen; }
+
+.portfolio-img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4.688rem 0 4rem; }
+
+.portfolio-img img {
+  padding: 0.625rem;
+  width: 100%;
+  height: 15.938rem; }
+
 .portfolio-btn a {
   font-size: 1rem;
   text-decoration: none;
   background-color: #0074FB;
-  padding: 0.625 1rem;
+  padding: 0.625rem 1rem;
   color: #ffff;
   border-radius: 0.313rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 1.25rem 0 6.25rem;
+  margin: 1.25rem 0 4.25rem;
   float: right; }
 
 .portfolio-btn a:hover {
   background-color: #0060CF; }
 
 .feedback-wrapper {
-  background-color: #000000; }
+  background-color: #000000;
+  max-width: 1440px;
+  width: 100%;
+  border: 1px solid tomato;
+  padding: 0 50px; }
+
+.feedback-second-wrapper {
+  border: 1px solid goldenrod;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto; }
 
 .feedback-title {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto; }
 
 .feedback-title h3 {
@@ -266,6 +286,7 @@ body {
   align-items: center;
   justify-content: space-between;
   max-width: 1170px;
+  width: 100%;
   position: relative;
   margin: auto; }
 
@@ -276,6 +297,7 @@ body {
   justify-content: space-between; }
 
 .text-comment {
+  width: 100%;
   display: flex;
   flex-direction: column; }
 
@@ -283,7 +305,10 @@ body {
   width: 25rem;
   margin: 2.5rem 130px 0 0; }
 
-.mySlides img {
+.feedback-img {
+  width: 100%; }
+
+.feedback-img img {
   width: 240px;
   height: 240px;
   border-radius: 0.625rem; }
@@ -335,11 +360,16 @@ body {
 .circles-wrapper {
   background-color: #000000;
   max-width: 1440px;
-  text-align: center; }
+  width: 100%;
+  text-align: center;
+  padding: 0 50px;
+  border: 1px solid goldenrod; }
 
 .circles-content {
-  width: 1170px;
-  margin: 0 auto; }
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid goldenrod; }
 
 .dot {
   cursor: pointer;
@@ -872,5 +902,14 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+  .banner-text {
+    margin: 0 auto; }
   .banner-info p {
     margin: 30px auto; } }
+
+@media (max-width: 1000px) {
+  .text-comment p {
+    width: 25rem;
+    margin: 2.5rem 0.625rem 0 0; }
+  .feedback-name p {
+    margin: 0 0.625rem; } }

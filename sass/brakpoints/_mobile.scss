@@ -53,8 +53,25 @@
     align-items: center;
   }
 
+  .banner-text{
+    margin: 0 auto;
+  }
+
   .banner-info p{
     margin: 30px auto;
   }
 
+}
+
+//*** Media Feedback Section ****
+
+@media(max-width: 1000px){
+  .text-comment p{
+    width: 25rem;
+    margin: 2.5rem 0.625rem 0 0;
+  }
+
+  .feedback-name p{
+    margin: 0 0.625rem;
+  }
 }
