@@ -52,3 +52,31 @@ for (let i = 0; i < btns.length; i++) {
     this.className += ' active';
   });
 }
+
+/* ******** Github Activity ******* */
+
+const total = document.querySelector('.github-activity a span');
+
+const UserUrl = 'https://api.github.com/users/kendollcastro';
+
+const GithubData = () => {
+  fetch(UserUrl, {
+    method: 'GET'
+  })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok " + response.status');
+      }
+
+      return response.json();
+    })
+    .then((data) => {
+      const github = data.public_repos;
+      total.innerHTML = `${github}`;
+    })
+    .catch((error) => {
+      console.log('error', error);
+    });
+};
+
+GithubData();

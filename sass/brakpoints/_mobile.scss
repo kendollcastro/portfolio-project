@@ -75,3 +75,17 @@
     margin: 0 0.625rem;
   }
 }
+
+@media(max-width: 920px){
+  .footer-info{
+    flex-direction: column;
+    height: 320px;
+  }
+
+  .footer-phone{
+    justify-content: center;
+  }
+  .footer-mail{
+    justify-content: center;
+  }
+}

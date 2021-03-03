@@ -1,73 +1,58 @@
 //Header Div
 
-/*.header{
+.principal-contact-wrapper{
+  max-width: 1440px;
+  width: 100%;
+
+  padding: 0 50px;
+}
+
+.second-contact-wrapper{
+  display: flex;
+  flex-direction: column;
+
   margin: 0 auto;
+  max-width: 100%;
   width: 1170px;
-  height: 720px;
-  position: relative;
   color: $text-color;
-}*/
 
-.contact-bg{
-  background-image: url(/img/contact-img-bg.png);
-  background-repeat: no-repeat;
+}
+
+.header-img{
+  background-image: url(../../img/home-header-img.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 580px;
+  margin-top: 60px;
+
 }
 
-.portfolio-bg{
-  width: 1440px;
-}
+
+//Barra de navegacion
+
 
 //Desktop logo
 
 .logo img{
-  position: absolute;
-  width: 70px;
-  height: 35px;
-  top: 2.188rem;
-}
-
-//Barra de navegacion
-
-.nav-bar{
-  float: right;
-}
-
-.nav-menu{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 2.188rem;
-}
-
-.nav-menu li a{
-  text-decoration: none;
-  font-size: 1.125rem;
-  margin-left: 2.188rem;
-}
-
-.nav-menu li a:visited{
-  color: $text-color;
+  top: 1.875rem;
 }
 
 
 //**** Header Title *****
 
-.header-title{
-  position: absolute;
-  left: 6.25rem;
-  top: 16.25rem;
+.header-name{
+
+  margin-left: 5rem;
 }
 
-.header-title h1{
+.header-name h1{
   font-size: 4.375rem;
   margin: 0 auto;
-
 }
 
-.header-title p{
-  font-size: 2.5rem;
+.header-name p{
+  font-size: 1.875rem;
   margin: 0 auto;
 }
 
