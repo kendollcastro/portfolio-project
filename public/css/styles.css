@@ -10,7 +10,8 @@ body {
 
 .first-header-wrapper {
   max-width: 100%;
-  width: 1440px; }
+  width: 1440px;
+  border: 1px solid yellow; }
 
 .header {
   display: flex;
@@ -34,8 +35,8 @@ body {
   .header-img {
     display: none; }
   .first-header-wrapper {
-    max-width: 1440px;
-    width: 100%;
+    max-width: 100%;
+    width: 767px;
     background-image: url(../../img/home-header-img.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -122,44 +123,6 @@ body {
   font-size: 1.875rem;
   margin: 0 auto; }
 
-.banner-contact {
-  max-width: 1440px;
-  width: 100%;
-  background-image: url(/img/home-banner.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.banner-info {
-  color: #ffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  text-align: center;
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto; }
-
-.banner-info p {
-  width: 100%;
-  font-weight: bold;
-  text-align: center;
-  margin: 6.25rem 18.75rem 6.25rem 4.375rem; }
-
-.banner-info a {
-  font-size: 1rem;
-  text-decoration: none;
-  background-color: #0074FB;
-  padding: 0.625rem 1rem;
-  color: white;
-  border-radius: 0.313rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: absolute;
-  margin: 6.25rem 0 5rem; }
-
-.banner-info a:hover {
-  background-color: #0060CF; }
-
 .wrapper-about {
   background-color: #000000;
   width: 1440px;
@@ -207,6 +170,44 @@ body {
 .aboutme-img img {
   width: 100%;
   margin-top: 7.813rem; }
+
+.banner-contact {
+  max-width: 1440px;
+  width: 100%;
+  background-image: url(/img/home-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.banner-info {
+  color: #ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.banner-info p {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  margin: 6.25rem 18.75rem 6.25rem 4.375rem; }
+
+.banner-info a {
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #0074FB;
+  padding: 0.625rem 1rem;
+  color: white;
+  border-radius: 0.313rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 6.25rem 0 5rem; }
+
+.banner-info a:hover {
+  background-color: #0060CF; }
 
 .portfolio-section {
   max-width: 1440px;

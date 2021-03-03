@@ -5,19 +5,14 @@
 @import'config/global';
 
 //Home Page
-@import'partials/header';
-@import'partials/banner';
-@import'partials/aboutHome';
-@import'partials/projectsHome';
-@import'partials/feedback';
-@import'partials/footer';
+@import'partials/home';
 
 
 //About Me Page
-@import'aboutme/about';
+@import'partials/about';
 
 //Portfolio Page
-@import'portfolio/portfolio';
+@import'partials/portfolio';
 
 //Contact Page
-@import'contact/contact';
+@import'partials/contact';
