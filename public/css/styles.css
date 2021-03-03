@@ -1,17 +1,17 @@
 body {
   font-family: 'Poppins';
   margin: 0;
-  padding: 0;
-  width: 100%; }
+  padding: 0; }
 
 .main-wrapper {
-  max-width: 100%;
-  width: 1440px; }
+  max-width: 1440px;
+  width: 100%; }
 
 .first-header-wrapper {
-  max-width: 100%;
-  width: 1440px;
-  border: 1px solid yellow; }
+  max-width: 1440px;
+  width: 100%;
+  border: 1px solid yellow;
+  padding: 0 50px; }
 
 .header {
   display: flex;
@@ -31,20 +31,6 @@ body {
   margin-top: 60px;
   border: 1px solid red; }
 
-@media (max-width: 767px) {
-  .header-img {
-    display: none; }
-  .first-header-wrapper {
-    max-width: 100%;
-    width: 767px;
-    background-image: url(../../img/home-header-img.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 1px solid orange; }
-  .header {
-    max-width: 90%;
-    margin: 0 auto; } }
-
 .logo img {
   top: 1.875rem; }
 
@@ -60,10 +46,6 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   margin-top: 1.875rem; }
-
-@media (max-width: 767px) {
-  .nav-bar ul {
-    display: none; } }
 
 .nav-menu li a {
   text-decoration: none;
@@ -127,7 +109,9 @@ body {
   background-color: #000000;
   width: 1440px;
   max-width: 100%;
-  color: #ffff; }
+  color: #ffff;
+  border: 1px solid red;
+  padding: 0 50px; }
 
 .aboutme-info {
   display: flex;
@@ -136,15 +120,20 @@ body {
   margin: 0 auto;
   padding-bottom: 12.188rem;
   width: 1170px;
-  max-width: 100%; }
+  max-width: 100%;
+  border: 1px solid lightblue; }
 
 .aboutme-text {
   width: 31.25rem;
   margin-right: 200px; }
 
+/*.about-mobile h3{
+  display: none;
+}*/
 .aboutme-text h3 {
   margin: 110px 0 0;
-  font-size: 12.5rem; }
+  font-size: 12.5rem;
+  order: 1; }
 
 .aboutme-text p {
   margin: 3.125rem 0 0; }
@@ -172,20 +161,24 @@ body {
   margin-top: 7.813rem; }
 
 .banner-contact {
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
+  width: 1440px;
+  height: 200px;
   background-image: url(/img/home-banner.png);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding: 0 50px; }
 
 .banner-info {
   color: #ffff;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: center;
   text-align: center;
-  width: 100%;
-  max-width: 1170px;
+  align-items: center;
+  width: 1170px;
+  max-width: 100%;
+  height: 200px;
   margin: 0 auto; }
 
 .banner-info p {
@@ -194,7 +187,10 @@ body {
   text-align: center;
   margin: 6.25rem 18.75rem 6.25rem 4.375rem; }
 
-.banner-info a {
+.banner-button {
+  border: 1px solid pink; }
+
+.banner-button a {
   font-size: 1rem;
   text-decoration: none;
   background-color: #0074FB;
@@ -203,7 +199,6 @@ body {
   border-radius: 0.313rem;
   font-weight: bold;
   text-transform: uppercase;
-  position: absolute;
   margin: 6.25rem 0 5rem; }
 
 .banner-info a:hover {
@@ -846,3 +841,36 @@ h1 {
   width: 250px;
   font-size: 1rem;
   color: #BDBDBD; }
+
+@media (max-width: 767px) {
+  .header {
+    background-image: url(../../img/home-header-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%; }
+  .header-img {
+    display: none; }
+  .nav-menu {
+    display: none; }
+  .icons-list li img:hover {
+    -ms-transform: none;
+    /* IE 9 */
+    -webkit-transform: none;
+    /* Safari 3-8 */
+    transform: none; }
+  .header-name {
+    margin-left: 0;
+    margin-right: 5rem; }
+  .header-content {
+    flex-direction: row-reverse;
+    margin-top: 8.75rem; }
+  .aboutme-info {
+    flex-direction: column-reverse; } }
+
+@media (max-width: 1100px) {
+  .banner-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .banner-info p {
+    margin: 30px auto; } }
