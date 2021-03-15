@@ -9,3 +9,88 @@ body{
   width: 100%;
 }
 
+.header{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
+  color: $text-color;
+  height: 600px;
+}
+
+//Barra de navegacion
+
+//Desktop logo
+
+.logo img{
+  top: 1.875rem;
+  height: 50px;
+}
+
+
+//Nav bar
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav-menu{
+  width: 50%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1.875rem;
+}
+
+.nav-menu li a{
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.nav-menu li a:visited{
+  color: $text-color;
+}
+
+.cool-link::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 0.125rem;
+  background-color: $text-color;
+  transition: width .3s
+}
+
+.cool-link:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+//**** Header Title *****
+
+.header-content{
+  //height: 700px;
+  display: flex;
+  align-items: center;
+  margin-top: 230px;
+}
+
+.header-name{
+  margin-left: 5rem;
+  border: 1px solid red;
+}
+
+.header-name h1{
+  font-size: 4.375rem;
+  margin: 0 auto;
+}
+
+.header-name p{
+  font-size: 1.875rem;
+  margin: 0 auto;
+}

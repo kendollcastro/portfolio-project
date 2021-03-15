@@ -7,26 +7,14 @@ body {
   max-width: 1440px;
   width: 100%; }
 
-.first-header-wrapper {
-  max-width: 1440px;
-  width: 100%;
-  padding: 0 50px; }
-
 .header {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: 100%;
   width: 1170px;
-  color: #ffff; }
-
-.header-img {
-  background-image: url(../../img/home-header-img.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 580px;
-  margin-top: 60px; }
+  color: #ffff;
+  height: 600px; }
 
 .logo img {
   top: 1.875rem;
@@ -66,9 +54,32 @@ body {
   transition: width .3s; }
 
 .header-content {
-  height: 700px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-top: 230px; }
+
+.header-name {
+  margin-left: 5rem;
+  border: 1px solid red; }
+
+.header-name h1 {
+  font-size: 4.375rem;
+  margin: 0 auto; }
+
+.header-name p {
+  font-size: 1.875rem;
+  margin: 0 auto; }
+
+.first-header-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 50px; }
+
+.header {
+  background-image: url(../../img/home-header-img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 50px right; }
 
 .icons-list {
   display: flex;
@@ -91,17 +102,6 @@ body {
   /* Safari 3-8 */
   transform: scale(1.5); }
 
-.header-name {
-  margin-left: 5rem; }
-
-.header-name h1 {
-  font-size: 4.375rem;
-  margin: 0 auto; }
-
-.header-name p {
-  font-size: 1.875rem;
-  margin: 0 auto; }
-
 .wrapper-about {
   background-color: #000000;
   width: 1440px;
@@ -112,15 +112,15 @@ body {
 .aboutme-info {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin: 0 auto;
+  margin-top: 100px;
   padding-bottom: 12.188rem;
   width: 1170px;
   max-width: 100%; }
 
 .aboutme-text {
-  width: 31.25rem;
-  margin-right: 200px; }
+  width: 31.25rem; }
 
 /*.about-mobile h3{
   display: none;
@@ -132,6 +132,14 @@ body {
 
 .aboutme-text p {
   margin: 3.125rem 0 0; }
+
+.aboutme-img {
+  background-image: url(../../img/home-img-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 370px;
+  height: 350px;
+  margin-top: 125px; }
 
 .aboutme-text a {
   font-size: 1rem;
@@ -506,34 +514,23 @@ body {
   padding: 0 50px; }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 1170px;
-  color: #ffff; }
+  background-image: url(../../img/home-header-img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 50px right; }
 
-.header-img {
+/*
+.header-img{
   background-image: url(../../img/home-header-img.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 40%;
   height: 580px;
-  margin-top: 60px; }
+  margin-top: 60px;
 
+}*/
 .logo img {
   top: 1.875rem; }
-
-.header-name {
-  margin-left: 5rem; }
-
-.header-name h2 {
-  font-size: 4.375rem;
-  margin: 0 auto; }
-
-.header-name p {
-  font-size: 1.875rem;
-  margin: 0 auto; }
 
 .wrapper-about {
   background-color: black;
@@ -545,7 +542,7 @@ body {
   margin: 0 auto;
   width: 1170px; }
 
-.aboutme-text {
+.aboutme-section-text {
   width: 610px;
   margin-right: 12.5rem; }
 
@@ -590,29 +587,16 @@ body {
   width: 1170px;
   color: #ffff; }
 
-.header-img {
+/*
+.header-img{
   background-image: url(../../img/home-header-img.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 40%;
   height: 580px;
-  margin-top: 60px; }
+  margin-top: 60px;
 
-.logo img {
-  top: 1.875rem; }
-
-.header-name {
-  margin-left: 5rem;
-  margin-right: 5rem; }
-
-.header-name h1 {
-  font-size: 4.375rem;
-  margin: 0 auto; }
-
-.header-name p {
-  font-size: 1.875rem;
-  margin: 0 auto; }
-
+}*/
 .portfolio-section {
   max-width: 1440px;
   background-color: #000000;
@@ -733,28 +717,16 @@ body {
   width: 1170px;
   color: #ffff; }
 
-.header-img {
+/*
+.header-img{
   background-image: url(../../img/home-header-img.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 40%;
   height: 580px;
-  margin-top: 60px; }
+  margin-top: 60px;
 
-.logo img {
-  top: 1.875rem; }
-
-.header-name {
-  margin-left: 5rem; }
-
-.header-name h1 {
-  font-size: 4.375rem;
-  margin: 0 auto; }
-
-.header-name p {
-  font-size: 1.875rem;
-  margin: 0 auto; }
-
+}*/
 .contact-title {
   display: flex;
   justify-content: start;
@@ -836,10 +808,10 @@ body {
     transform: none; }
   .header-name {
     margin-left: 0;
-    margin-right: 5rem; }
+    margin-right: 3rem; }
   .header-content {
     flex-direction: row-reverse;
-    margin-top: 8.75rem; }
+    margin-top: 16.75rem; }
   .aboutme-info {
     flex-direction: column-reverse; } }
 
