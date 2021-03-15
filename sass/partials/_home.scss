@@ -1,8 +1,8 @@
 //Header Div
 
 .first-header-wrapper{
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
+  width: 1440px;
   padding: 0 50px;
 }
 
@@ -59,7 +59,8 @@
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 100px;
-  padding-bottom: 12.188rem;
+  margin-bottom: 150px;
+  //padding-bottom: 12.188rem;
   width: 1170px;
   max-width: 100%;
 }
@@ -95,19 +96,25 @@
   margin-top: 125px;
 }
 
-//**** About me / button ****
+.aboutme-img-mobile {
+  display: none;
+}
 
-.aboutme-text a{
+//**** About me / button ****
+.btn-home-about {
+  margin-top: 30px;
+}
+
+.btn-home-about a {
   font-size: 1rem;
   text-decoration: none;
   background-color: $button-color;
   padding: 0.625rem 1rem;
-  color: $text-color;
+  color: white;
   border-radius: 0.313rem;
   font-weight: bold;
   text-transform: uppercase;
-  position: absolute;
-  margin-top: 3.75rem;
+  margin: 6.25rem 0 5rem;
 }
 
 .aboutme-text a:hover{

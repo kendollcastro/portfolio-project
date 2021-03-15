@@ -71,8 +71,8 @@ body {
   margin: 0 auto; }
 
 .first-header-wrapper {
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
+  width: 1440px;
   padding: 0 50px; }
 
 .header {
@@ -115,7 +115,7 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 100px;
-  padding-bottom: 12.188rem;
+  margin-bottom: 150px;
   width: 1170px;
   max-width: 100%; }
 
@@ -141,17 +141,22 @@ body {
   height: 350px;
   margin-top: 125px; }
 
-.aboutme-text a {
+.aboutme-img-mobile {
+  display: none; }
+
+.btn-home-about {
+  margin-top: 30px; }
+
+.btn-home-about a {
   font-size: 1rem;
   text-decoration: none;
   background-color: #0074FB;
   padding: 0.625rem 1rem;
-  color: #ffff;
+  color: white;
   border-radius: 0.313rem;
   font-weight: bold;
   text-transform: uppercase;
-  position: absolute;
-  margin-top: 3.75rem; }
+  margin: 6.25rem 0 5rem; }
 
 .aboutme-text a:hover {
   background-color: #0060CF; }
@@ -532,7 +537,7 @@ body {
 .logo img {
   top: 1.875rem; }
 
-.wrapper-about {
+.wrapper-aboutme {
   background-color: black;
   width: 1440px; }
 
@@ -791,13 +796,13 @@ body {
   color: #BDBDBD; }
 
 @media (max-width: 767px) {
-  .header {
-    background-image: url(../../img/home-header-img.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%; }
-  .header-img {
-    display: none; }
+  /*
+  .header{
+    //background-image: url(../../img/home-header-img.png);
+    //background-size: contain;
+    //background-repeat: no-repeat;
+    //width: 100%;
+  }*/
   .nav-menu {
     display: none; }
   .icons-list li img:hover {
@@ -813,7 +818,26 @@ body {
     flex-direction: row-reverse;
     margin-top: 16.75rem; }
   .aboutme-info {
-    flex-direction: column-reverse; } }
+    justify-content: center;
+    text-align: center;
+    padding: 0; }
+  .aboutme-img-mobile {
+    display: flex;
+    background-image: url(../../img/home-img-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    width: 370px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 125px; }
+  .aboutme-img {
+    display: none; }
+  .aboutme-text {
+    align-items: center;
+    width: 100%; }
+  .btn-home-about {
+    float: right; } }
 
 @media (max-width: 1100px) {
   .banner-info {
