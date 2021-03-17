@@ -10,7 +10,7 @@
   background-image: url(../../img/header-about-img.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top 70px right;
+  background-position: top 4.375rem right;
   color: $text-color;
   display: flex;
   flex-direction: column;
@@ -68,11 +68,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .aboutme-first-img {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 // About me / Section Two
