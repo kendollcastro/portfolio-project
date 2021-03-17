@@ -1,26 +1,46 @@
 //Header Div
 
-.first-header-wrapper{
+.first-header-wrapper {
   max-width: 100%;
+  padding: 0 5%;
   width: 1440px;
-  padding: 0 50px;
 }
 
-.header{
-  background-image: url(../../img/home-header-img.png);
+.header-home {
+  background-image: url(../../img/home-img-1.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top 50px right;
+  background-position: top 70px right;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
 }
 
+.header-name{
+  margin-left: 5rem;
+}
+
+.header-name h1{
+  font-size: 4.375rem;
+  margin: 0 auto;
+}
+
+.header-name p{
+  font-size: 1.875rem;
+  margin: 0 auto;
+}
 
 // ****** Header icon *****
 
-.icons-list{
+.icons-list {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   height: 180px;
+  justify-content: space-around;
   padding: 0;
 }
 
@@ -45,10 +65,10 @@
 
 .wrapper-about{
   background-color: $primary-color;
-  width: 1440px;
-  max-width: 100%;
   color: $text-color;
-  padding: 0 50px;
+  max-width: 100%;
+  width: 1440px;
+  padding: 0 5%;
 }
 
 //***** Wrapper About Me *****
@@ -60,24 +80,17 @@
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 150px;
-  //padding-bottom: 12.188rem;
-  width: 1170px;
   max-width: 100%;
+  width: 1170px;
 }
 
 .aboutme-text{
   width: 31.25rem;
-  //margin-right: 200px;
 }
-
-/*.about-mobile h3{
-  display: none;
-}*/
 
 .aboutme-text h3{
   margin: 110px 0 0;
   font-size: 12.5rem;
-  order: 1;
 }
 
 .aboutme-text p{
@@ -85,7 +98,6 @@
 }
 
 // About me Img
-
 
 .aboutme-img{
   background-image: url(../../img/home-img-2.png);
@@ -96,317 +108,246 @@
   margin-top: 125px;
 }
 
-.aboutme-img-mobile {
-  display: none;
-}
-
 //**** About me / button ****
+
 .btn-home-about {
-  margin-top: 30px;
+  margin-top: 2.875rem;
 }
 
-.btn-home-about a {
-  font-size: 1rem;
-  text-decoration: none;
-  background-color: $button-color;
-  padding: 0.625rem 1rem;
-  color: white;
-  border-radius: 0.313rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 6.25rem 0 5rem;
-}
-
-.aboutme-text a:hover{
+.aboutme-text a:hover {
   background-color: $button-hover-color;
 }
 
-.aboutme-info a:visited{
+.btn-home-about a {
+  background-color: $button-color;
+  border-radius: 0.313rem;
+  color: $text-color;
+  font-weight: bold;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 6.25rem 0 5rem;
+  padding: 0.625rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.aboutme-info a:visited {
   color: $text-color;
 }
 
+// ***About me img ***
 
-// **** About me - img ****
-
-.aboutme-img img{
+.aboutme-img img {
   width: 100%;
   margin-top: 7.813rem;
 }
 
-
-//************* HOME PAGE / BANNER ***********
-
-
-.banner-contact{
-  max-width: 100%;
-  width: 1440px;
-  height: 200px;
-  background-image: url(/img/home-banner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0 50px;
-}
-
-.banner-info{
-  color: $text-color;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  width: 1170px;
-  max-width: 100%;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.banner-text{
-  margin-right: 6rem;
-}
-
-.banner-info p{
-  width: 100%;
-  font-weight: bold;
-  text-align: center;
-}
-
-.banner-button a {
-  font-size: 1rem;
-  text-decoration: none;
-  background-color: $button-color;
-  padding: 0.625rem 1rem;
-  color: white;
-  border-radius: 0.313rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 6.25rem 0 5rem;
-}
-
-.banner-info a:hover{
-  background-color: $button-hover-color;
-}
-
-
-//************** HOME PAGE / PROJECTS *********
-
+//****** HOME PAGE / PROJECTS *********
 
 //****** Portfolio Title ****
 
-.portfolio-title h3{
-  color: $text-color;
-  margin-top: 9.375rem;
-  float: right;
-  font-size: 2.5rem;
-}
-
-.portfolio-section{
-  max-width: 1440px;
-  width: 100%;
+.portfolio-section {
   background-color: $primary-color;
   margin: 0 auto;
-  padding: 0 50px;
+  max-width: 1440px;
+  padding: 0 5%;
+  width: 100%;
 }
 
-
-.portfolio-wrapper{
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
+.portfolio-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: end;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
 }
 
-.portfolio-img-box{
+.portfolio-title h3 {
+  color: $text-color;
+  float: right;
+  font-size: 2.5rem;
+  margin-top: 6.375rem;
+}
+
+.portfolio-img-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 4.688rem 0 4rem;
+  margin: 2.688rem 0 3rem;
 }
 
-.portfolio-img img{
+.portfolio-img img {
+  box-sizing: border-box;
+  height: 16.25rem;
   padding: 0.625rem;
   width: 100%;
-  height: 15.938rem;
 }
-
 
 // ***** Projects Botton ******
 
-.portfolio-btn a{
-  font-size: 1rem;
-  text-decoration: none;
-  background-color: $button-color;
-  padding: 0.625rem 1rem;
-  color: $text-color;
-  border-radius: 0.313rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 1.25rem 0 4.25rem;
-  float: right;
+.portfolio-btn a:hover {
+  background-color: $button-hover-color;
 }
 
-.portfolio-btn a:hover{
-  background-color: $button-hover-color;
+.portfolio-btn a {
+  background-color: $button-color;
+  border-radius: 0.313rem;
+  color: $text-color;
+  font-weight: bold;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.25rem 0 5rem;
+  padding: 0.625rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: right;
 }
 
 //**************** HOME PAGE / FEEDBACK **********
 
-.feedback-wrapper{
+.feedback-wrapper {
   background-color: $primary-color;
-  max-width: 1440px;
-  width: 100%;
-  padding: 0 50px;
+  max-width: 100%;
+  padding: 0 5%;
+  width: 1440px;
 }
 
-.feedback-second-wrapper{
-  width: 100%;
-  max-width: 1170px;
+.feedback-second-wrapper {
+  max-width: 100%;
   margin: 0 auto;
+  width: 1170px;
 }
 
 //Feedback title
 
-.feedback-title{
-  width: 100%;
+.feedback-title {
   margin: 0 auto;
+  width: 100%;
 }
 
-.feedback-title h3{
-  margin: 0 0 3.75rem;
+.feedback-title h3 {
   color: $text-color;
   font-size: 2.5rem;
+  margin: 0 0 3.75rem;
 }
 
-/* Slideshow container */
-.slideshow-container {
+// Slideshow container
 
+.slideshow-container {
+  align-items: center;
   color: $text-color;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   max-width: 1170px;
-  width: 100%;
-  position: relative;
   margin: auto;
+  position: relative;
+  width: 100%;
 }
 
-/* Hide the images by default */
+// Hide the images by default
+
 .mySlides {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
-.text-comment{
-  width: 100%;
+.text-comment {
   display: flex;
   flex-direction: column;
-}
-
-.text-comment p{
-  width: 25rem;
-  margin: 2.5rem 130px 0 0;
-
-}
-
-.feedback-img{
   width: 100%;
 }
 
-.feedback-img img{
-  width: 240px;
-  height: 240px;
-  border-radius: 0.625rem;
+.text-comment p {
+  margin: 2.5rem 130px 0 0;
+  width: 25rem;
 }
 
-.feedback-name{
+.feedback-img {
+  width: 100%;
+}
+
+.feedback-img img {
+  border-radius: 0.625rem;
+  height: 240px;
+  width: 240px;
+}
+
+.feedback-name {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin-top: 1.875rem;
-
 }
 
-.feedback-name p{
+.feedback-name p {
   margin: 0 0 0 1.875rem;
 }
 
-
-.feedback-name img{
+.feedback-name img {
   height: 3px;
   width: 50px;
 }
 
 //Left row hover effect
 
-.left-row img{
-  width: 24px;
-}
-
-.left-row img:hover{
+.left-row img:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
+}
+
+.left-row img {
+  width: 24px;
 }
 
 //Right row hover effect
-.right-row img{
+
+.right-row img {
   width: 24px;
 }
 
-.right-row:hover{
+.right-row:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
 
-/* Caption text */
-.text {
-  color: $text-color;
-  font-size: 1rem;
-  padding: 0.5rem 0.75;
-  position: absolute;
-  bottom: 0.5rem;
-  width: 100%;
-  text-align: center;
-}
+// The dots/bullets/indicators
 
-
-/* The dots/bullets/indicators */
-
-.circles-wrapper{
+.circles-wrapper {
   background-color: $primary-color;
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
+  padding: 0 5%;
   text-align: center;
-  padding: 0 50px;
+  width: 1440px;
 }
 
-.circles-content{
+.circles-content {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
 }
 
+.aboutme-text a:hover {
+  background-color: $button-hover-color;
+}
+
 .dot {
   cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 2.5rem 0.125rem;
   background-color: $primary-color;
-  border-radius: 50%;
   border: 0.188rem solid $text-color;
+  border-radius: 50%;
   display: inline-block;
+  height: 10px;
+  margin: 2.5rem 0.125rem;
+  width: 10px;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: $text-color;
-}
+// Fading animation
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -415,162 +356,12 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .5}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .5}
   to {opacity: 1}
 }
-
-//********** HOME PAGE / FOOTER ********
-
-.footer-wrapper{
-  width: 100%;
-  max-width: 1440px;
-  background-color: $primary-color;
-  color: $text-color;
-  padding: 0 50px;
-}
-
-.footer-info{
-  width: 100%;
-  max-width: 1170px;
-  height: 215px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-//***** Footer Phone Style ****
-
-.footer-contact{
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-phone{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.footer-phone img{
-  margin-right: 1.563rem;
-  width: 24px;
-  height: 24px;
-}
-
-
-//***** Footer Mail Style *****
-
-.form-title{
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0  1.563rem;
-}
-
-.footer-mail{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.footer-mail img{
-  margin-right: 1.563rem;
-  width: 24px;
-  height: 24px;
-}
-
-// **** Stay in touch Style *****
-
-.stay-form{
-  display: flex;
-  flex-direction: column;
-}
-
-.form-input{
- display: flex;
- justify-content: center;
-}
-
-.form-input input{
-  border: 0.188rem solid $button-color;
-  color: white;
-  background: none;
-  border-radius: 0.313rem 0 0 0.313rem;
-  height: 31px;
-  width: 180px;
-}
-
-
-//**** Form button ****
-
-.form-input button{
-  text-decoration: none;
-  background-color: $button-color;
-  color: white;
-  border-radius: 0 0.313rem 0.313rem 0;
-  font-weight: bolder;
-  text-transform: uppercase;
-  padding: 0.5rem 1rem;
-  border: none;
-}
-
-.form-input button:hover{
-  background-color: $button-hover-color;
-}
-
-//****** Footer Social Media *****
-
-.social-media{
-  display: flex;
-  justify-content: center;
-}
-
-.social-media p{
-  margin: 1rem 0 1.563rem;
-}
-
-.list-icons{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0 auto;
-}
-
-.list-icons img{
-  height: 24px;
-}
-
-.list-icons img:hover{
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
-}
-
-.list-icons a{
-  margin-left: 2.188rem;
-}
-
-
-// ***** Footer Copy Right ******
-
-.form-copy-right{
-  display: flex;
-  justify-content: center;
-}
-
-.form-copy-right p{
-  order: 3;
-  color: #BDBDBD;
-  margin: 1.25rem;
-}
-
 

@@ -9,16 +9,6 @@ body{
   width: 100%;
 }
 
-.header{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 1170px;
-  color: $text-color;
-  height: 600px;
-}
-
 //Barra de navegacion
 
 //Desktop logo
@@ -28,7 +18,6 @@ body{
   height: 50px;
 }
 
-
 //Nav bar
 
 .nav-bar{
@@ -36,21 +25,26 @@ body{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 
 
 .nav-menu{
-  width: 50%;
+  width: 45%;
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 1.875rem;
 }
 
 .nav-menu li a{
   text-decoration: none;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
+}
+
+.nav-menu li a:link {
+  color: $text-color;
 }
 
 .nav-menu li a:visited{
@@ -80,17 +74,203 @@ body{
   margin-top: 230px;
 }
 
-.header-name{
-  margin-left: 5rem;
-  border: 1px solid red;
+//************* HOME PAGE / BANNER ***********
+
+.banner-contact{
+  max-width: 100%;
+  width: 1440px;
+  height: 200px;
+  background-image: url(/img/home-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 50px;
 }
 
-.header-name h1{
-  font-size: 4.375rem;
+.banner-info{
+  color: $text-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 1170px;
+  max-width: 100%;
+  height: 200px;
   margin: 0 auto;
 }
 
-.header-name p{
-  font-size: 1.875rem;
+.banner-text{
+  margin-right: 6rem;
+  font-size: 24px;
+}
+
+.banner-info p{
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner-button a {
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: $button-color;
+  padding: 0.625rem 1rem;
+  color: white;
+  border-radius: 0.313rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 6.25rem 0 5rem;
+}
+
+.banner-info a:hover{
+  background-color: $button-hover-color;
+}
+
+//********** HOME PAGE / FOOTER ********
+
+.footer-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 0 50px;
+}
+
+.footer-info{
+  width: 100%;
+  max-width: 1170px;
+  height: 215px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+//***** Footer Phone Style ****
+
+.footer-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-phone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-phone img{
+  margin-right: 1.563rem;
+  width: 24px;
+  height: 24px;
+}
+
+
+//***** Footer Mail Style *****
+
+.form-title{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0  1.563rem;
+}
+
+.footer-mail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-mail img{
+  margin-right: 1.563rem;
+  width: 24px;
+  height: 24px;
+}
+
+// **** Stay in touch Style *****
+
+.stay-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input{
+ display: flex;
+ justify-content: center;
+}
+
+.form-input input{
+  border: 0.188rem solid $button-color;
+  color: white;
+  background: none;
+  border-radius: 0.313rem 0 0 0.313rem;
+  height: 31px;
+  width: 180px;
+}
+
+
+//**** Form button ****
+
+.form-input button{
+  text-decoration: none;
+  background-color: $button-color;
+  color: white;
+  border-radius: 0 0.313rem 0.313rem 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.form-input button:hover{
+  background-color: $button-hover-color;
+}
+
+//****** Footer Social Media *****
+
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media p{
+  margin: 1rem 0 1.563rem;
+}
+
+.list-icons{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.list-icons img{
+  height: 24px;
+}
+
+.list-icons img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.list-icons a{
+  margin-left: 2.188rem;
+}
+
+
+// ***** Footer Copy Right ******
+
+.form-copy-right{
+  display: flex;
+  justify-content: center;
+}
+
+.form-copy-right p{
+  order: 3;
+  color: #BDBDBD;
+  margin: 1.25rem;
 }

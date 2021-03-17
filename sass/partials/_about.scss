@@ -6,37 +6,27 @@
   padding: 0 50px;
 }
 
-.header{
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
+  color: $text-color;
+  height: 600px;
   background-image: url(../../img/home-header-img.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top 50px right;
+  background-position: top 70px right;
 }
 
-/*
-.header-img{
-  background-image: url(../../img/home-header-img.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 580px;
-  margin-top: 60px;
-
-}*/
-
-
 //Barra de navegacion
-
-
 
 //Desktop logo
 
 .logo img{
   top: 1.875rem;
 }
-
-
-
 
 // **** Wrapper About Me ****
 
