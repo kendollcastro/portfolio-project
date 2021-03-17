@@ -1,82 +1,87 @@
 //Header Div
 
-.first-about-wrapper{
-  max-width: 1440px;
-  width: 100%;
-  padding: 0 50px;
+.first-about-wrapper {
+  max-width: 100%;
+  padding: 0 5%;
+  width: 1440px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 1170px;
-  color: $text-color;
-  height: 600px;
-  background-image: url(../../img/home-header-img.png);
+.header-about {
+  background-image: url(../../img/header-about-img.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top 70px right;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
 }
 
-//Barra de navegacion
-
-//Desktop logo
-
-.logo img{
-  top: 1.875rem;
+.header-about-name h1 {
+  font-size: 6.375rem;
+  margin: 0 auto;
 }
 
 // **** Wrapper About Me ****
 
-.wrapper-aboutme{
-  background-color: black;
+.wrapper-aboutme {
+  background-color: $primary-color;
+  max-width: 100%;
+  padding: 0 5%;
   width: 1440px;
 }
 
 //***** Wrapper About Me *****
 
-.aboutme-section-wrapper{
+.aboutme-section-wrapper {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   width: 1170px;
 }
 
-.aboutme-section-text{
-  width: 610px;
+.aboutme-section-text {
   margin-right: 12.5rem;
+  width: 610px;
 }
 
-.aboutme-text h3{
-  margin: 6.875rem 0 0;
+.aboutme-text h3 {
   font-size: 2.5rem;
+  margin: 6.875rem 0 0;
 }
 
-.aboutme-text p{
+.aboutme-text p {
   margin: 1.875rem 0 0;
 }
 
 
-.aboutme-info a:visited{
+.aboutme-info a:visited {
   color: $text-color;
+}
+
+// About me Section One
+
+.aboutme-section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.aboutme-first-img {
+  margin-top: 40px;
 }
 
 // About me / Section Two
 
-.aboutme-section-one{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-
-.aboutme-section-two{
+.aboutme-section-two {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: end;
-  align-items: center;
   margin-bottom: 7.813rem;
 }
 
@@ -87,5 +92,3 @@
 .section-two-text{
   width: 610px;
 }
-
-

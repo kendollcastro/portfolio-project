@@ -2,6 +2,8 @@ body{
   font-family: 'Poppins';
   margin: 0;
   padding: 0;
+  background-color: $primary-color;
+  color: $text-color;
 }
 
 .main-wrapper{
@@ -133,7 +135,7 @@ body{
   max-width: 1440px;
   background-color: $primary-color;
   color: $text-color;
-  padding: 0 50px;
+  padding: 0 5%;
 }
 
 .footer-info{

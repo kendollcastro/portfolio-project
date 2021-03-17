@@ -1,139 +1,139 @@
 //Header Div
 
-.portfolio-bg-wrapper{
-  max-width: 1440px;
-  width: 100%;
-  padding: 0 50px;
-}
-
-.portfolio-header{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 1170px;
-  color: $text-color;
-
-}
-
-/*
-.header-img{
-  background-image: url(../../img/home-header-img.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 580px;
-  margin-top: 60px;
-
-}*/
-
-//****** Portfolio projects content ****
-
-.portfolio-section{
-  max-width: 1440px;
-  background-color: $primary-color;
-  margin: 0 auto;
-}
-
-
-.portfolio-wrapper{
-  max-width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
-
 * {
   box-sizing: border-box;
 }
 
-body {
-  background-color: $primary-color;
-  color: $text-color;
+.portfolio-bg-wrapper{
+  max-width: 100%;
+  padding: 0 5%;
+  width: 1440px;
 }
 
-.project-wrapper{
+.portfolio-header{
+  background-image: url(../../img/header-about-portfolio.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 70px right;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1170px;
+}
+
+.header-name-portfolio h1 {
+  font-size: 6.375rem;
+  margin: 0 auto;
+}
+
+//****** Portfolio projects content ****
+
+.portfolio-section {
+  background-color: $primary-color;
+  margin: 0 auto;
   max-width: 1440px;
 }
 
-.second-wrapper{
+
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   max-width: 1170px;
   margin: 0 auto;
 }
 
-.tabs-title h2{
+.project-wrapper {
+  max-width: 1440px;
+  margin-top: 180px;
+  padding: 0 5%;
+}
+
+.second-wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.tabs-title h2 {
   font-size: 2.5rem;
 }
 
-/* Center website */
+// Center website
 
 .row {
   margin: 1.875rem -1rem 6.25rem;
 }
 
-/* Add padding BETWEEN each column */
+// Add padding BETWEEN each column
+
 .row,
 .row > .column {
   padding: 0.5rem;
 }
 
-/* Create three equal columns that floats next to each other */
+// Create three equal columns that floats next to each other
+
 .column {
+  display: none; // Hide all elements by default
   float: left;
   width: 33.33%;
-  display: none; /* Hide all elements by default */
 }
 
-/* Clear floats after rows */
+// Clear floats after rows
+
 .row:after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 
-/* Content */
+// Content
+
 .content {
   background-color: #1D1D1D;
   border-radius: 0.625rem;
   padding: 0.625rem;
 }
 
-.content img{
+.content img {
   width: 100%;
 }
 
-/* The "show" class is added to the filtered elements */
+// The "show" class is added to the filtered elements
+
 .show {
   display: block;
 }
 
-//*** Github Activity ***
+// *** Github Activity ***
 
-.github-activity a{
-  text-decoration: none;
-  border: none;
-  outline: none;
-  padding: 0.75rem 1rem;
+.github-activity a {
   background-color: #313131;
   border-radius: 0.313rem;
+  border: none;
   color: $text-color;
   cursor: pointer;
+  outline: none;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
 }
 
-.github-activity a:hover{
-  background-color: #1D1D1D;
+.github-activity a:hover {
+  background-color: $primary-color;
   color: $disabled-text;
 }
 
 
-/* Style the buttons */
+// Style the buttons
+
 .tabs-content {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
 }
 
 #myBtnContainer{
@@ -141,16 +141,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.btn {
-  border: none;
-  outline: none;
-  padding: 0.75rem 1rem;
-  background-color: #313131;
-  border-radius: 0.313rem;
-  color: $text-color;
-  cursor: pointer;
 }
 
 .btn:hover {
@@ -161,3 +151,15 @@ body {
   background-color: #1D1D1D;
   color: $text-color;
 }
+
+.btn {
+  border: none;
+  background-color: #313131;
+  border-radius: 0.313rem;
+  color: $text-color;
+  cursor: pointer;
+  outline: none;
+  padding: 0.75rem 1rem;
+}
+
+
