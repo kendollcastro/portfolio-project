@@ -61,7 +61,7 @@ const UserUrl = 'https://api.github.com/users/kendollcastro';
 
 const GithubData = () => {
   fetch(UserUrl, {
-    method: 'GET'
+    method: 'GET',
   })
     .then((response) => {
       if (!response.ok) {
