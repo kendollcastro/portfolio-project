@@ -1,0 +1,277 @@
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1440px;
+}
+
+//Barra de navegacion
+
+//Desktop logo
+
+.logo img {
+  height: 50px;
+  top: 1.875rem;
+}
+
+//Nav bar
+
+.nav-bar {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.875;
+}
+
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 1.875rem;
+  width: 45%;
+}
+
+.nav-menu li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-menu li a:link {
+  color: $text-color;
+}
+
+.nav-menu li a:visited {
+  color: $text-color;
+}
+
+.cool-link::after {
+  background-color: $text-color;
+  content: '';
+  display: block;
+  height: 0.125rem;
+  transition: width .3s;
+  width: 0;
+}
+
+.cool-link:hover::after {
+  transition: width .3s;
+  width: 100%;
+}
+
+//**** Header Title *****
+
+.header-content {
+  align-items: center;
+  display: flex;
+  margin-top: 230px;
+}
+
+//*** HOME PAGE / BANNER ***
+
+.banner-contact {
+  background-image: url(/img/home-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  max-width: 100%;
+  padding: 0 50px;
+  width: 1440px;
+}
+
+.banner-info {
+  align-items: center;
+  color: $text-color;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+  width: 1170px;
+}
+
+.banner-text {
+  font-size: 24px;
+  margin-right: 6rem;
+}
+
+.banner-info p {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+.banner-info a:hover {
+  background-color: $button-hover-color;
+}
+
+.banner-button a {
+  background-color: $button-color;
+  border-radius: 0.313rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 6.25rem 0 5rem;
+  padding: 0.625rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+//*** HOME PAGE / FOOTER ***
+
+.footer-wrapper {
+  background-color: $primary-color;
+  color: $text-color;
+  max-width: 1440px;
+  padding: 0 5%;
+  width: 100%;
+}
+
+.footer-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 215px;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 1170px;
+}
+
+//***** Footer Phone Style ****
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-phone {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-phone img {
+  margin-right: 1.563rem;
+  width: 24px;
+  height: 24px;
+}
+
+
+//***** Footer Mail Style *****
+
+.form-title {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0  1.563rem;
+}
+
+.footer-mail {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-mail img {
+  height: 24px;
+  margin-right: 1.563rem;
+  width: 24px;
+}
+
+// **** Stay in touch Style *****
+
+.stay-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+ display: flex;
+ justify-content: center;
+}
+
+.form-input input {
+  background: none;
+  border-radius: 0.313rem 0 0 0.313rem;
+  border: 0.188rem solid $button-color;
+  color: white;
+  height: 31px;
+  width: 180px;
+}
+
+
+//**** Form button ****
+
+.form-input button:hover {
+  background-color: $button-hover-color;
+}
+
+.form-input button {
+  background-color: $button-color;
+  border: none;
+  border-radius: 0 0.313rem 0.313rem 0;
+  color: white;
+  font-weight: bolder;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+//****** Footer Social Media *****
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media p {
+  margin: 1rem 0 1.563rem;
+}
+
+.list-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.list-icons img{
+  height: 24px;
+}
+
+.list-icons img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.list-icons a{
+  margin-left: 2.188rem;
+}
+
+
+// ***** Footer Copy Right ******
+
+.form-copy-right {
+  display: flex;
+  justify-content: center;
+}
+
+.form-copy-right p {
+  color: #BDBDBD;
+  margin: 1.25rem;
+  order: 3
+}
