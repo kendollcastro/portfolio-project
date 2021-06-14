@@ -204,6 +204,28 @@
   float: right;
 }
 
+//********** CANVAS WRAPPER ***********
+
+.canvas-wrapper{
+  background-color: $primary-color;
+  max-width: 100%;
+  padding: 0 5% 5%;
+  width: 1440px;
+}
+
+.canvas-wrapper h3{
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0 0 3.75rem;
+}
+
+#c{
+  max-width: 100%;
+  background-color: black;
+  border: 2px solid red;
+}
+
+
 //**************** HOME PAGE / FEEDBACK **********
 
 .feedback-wrapper {
@@ -222,6 +244,8 @@
 //Feedback title
 
 .feedback-title {
+  display: flex;
+  flex-direction: row-reverse;
   margin: 0 auto;
   width: 100%;
 }

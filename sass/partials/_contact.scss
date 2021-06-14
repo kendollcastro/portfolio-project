@@ -70,21 +70,25 @@
 
 
 .form-content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
   margin: 7.813rem 0 0 12.5rem;
 }
 
 .form-content form input {
   border-radius: 0.313rem;
   height: 1.875rem;
-  margin: 0.313rem 0 1.250rem;
+  margin: 0.313rem 0 2rem;
   width: 350px;
 }
 
 .form-content form textarea {
-  margin: 0.313rem 0;
+  margin: 0.313rem 0 1rem;
   border-radius: 0.313rem;
   resize: none;
-  width: 254px;
+  display: flex;
+  width: 350px;
 }
 
 .form-content button:hover{
@@ -101,12 +105,13 @@
   padding: 0.625rem 6.6rem;
   text-decoration: none;
   text-transform: uppercase;
+  float: right;
 }
 
 .form-content p {
   color: $disabled-text;
   font-size: 1rem;
-  width: 250px;
+  //width: 250px;
 }
 
 

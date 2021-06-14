@@ -369,6 +369,22 @@ body {
   text-transform: uppercase;
   float: right; }
 
+.canvas-wrapper {
+  background-color: #000000;
+  max-width: 100%;
+  padding: 0 5% 5%;
+  width: 1440px; }
+
+.canvas-wrapper h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0 0 3.75rem; }
+
+#c {
+  max-width: 100%;
+  background-color: black;
+  border: 2px solid red; }
+
 .feedback-wrapper {
   background-color: #000000;
   max-width: 100%;
@@ -381,6 +397,8 @@ body {
   width: 1170px; }
 
 .feedback-title {
+  display: flex;
+  flex-direction: row-reverse;
   margin: 0 auto;
   width: 100%; }
 
@@ -743,19 +761,23 @@ body {
   padding-bottom: 6.25rem; }
 
 .form-content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
   margin: 7.813rem 0 0 12.5rem; }
 
 .form-content form input {
   border-radius: 0.313rem;
   height: 1.875rem;
-  margin: 0.313rem 0 1.250rem;
+  margin: 0.313rem 0 2rem;
   width: 350px; }
 
 .form-content form textarea {
-  margin: 0.313rem 0;
+  margin: 0.313rem 0 1rem;
   border-radius: 0.313rem;
   resize: none;
-  width: 254px; }
+  display: flex;
+  width: 350px; }
 
 .form-content button:hover {
   background-color: #0060CF; }
@@ -769,9 +791,9 @@ body {
   font-weight: bold;
   padding: 0.625rem 6.6rem;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  float: right; }
 
 .form-content p {
   color: #BDBDBD;
-  font-size: 1rem;
-  width: 250px; }
+  font-size: 1rem; }
